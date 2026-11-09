@@ -152,7 +152,7 @@ const entries = [
         content: `
             <p>RS71 orientation day.</p>
 
-            <p>I found an old photograph taken near Anondopur. You were there, somewhere in the frame, almost unnoticed.</p>
+            <p>I found an old photograph of mine taken near Anondopur. You were there in the background, somewhere in the frame, almost unnoticed.</p>
 
             <p>It is funny how a photograph can hold something you wouldn't understand until much later.</p>
 
@@ -192,7 +192,7 @@ const entries = [
 
             <p>I remember thinking: </p>
 
-            <p><em>This dude really has some ambitions. >.<</em></p>
+            <p><em>This dude really has some ambitions. I could never. >.<</em></p>
 
             <p>That was about it. Nothing particularly extraordinary. At least, not yet.</p>
         `,
@@ -222,7 +222,7 @@ const entries = [
 
     {
         number: "006",
-        date: "February 2026",
+        date: " Some day in February 2026",
         title: "The Basketball Court",
 
         content: `
@@ -418,7 +418,7 @@ const entries = [
             <p>I think I have already gone further than I should have with these feelings. I don't want to make you uncomfortable.</p>
         `,
 
-        piko: "I believe this is where things got rather bold."
+        piko: "I believe this is where things got rather strange."
     },
 
 
