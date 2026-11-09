@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>An Anthology for Ishmam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grain"></div>
+
+    <main class="page">
+
+        <!-- WELCOME SCREEN -->
+        <section id="welcome" class="screen active">
+
+            <p class="top-label">A PRIVATE COLLECTION · 2026</p>
+
+            <div class="ornament">✧ ❀ ✧</div>
+
+            <h1>An Anthology<br><em>for Ishmam</em></h1>
+
+            <div class="divider"></div>
+
+            <p class="subtitle">Some things were never sent.</p>
+
+            <button class="main-button" id="enterButton">
+                Enter the anthology →
+            </button>
+
+            <p class="bottom-note">
+                A collection of dated thoughts, by Raita.
+            </p>
+
+        </section>
+
+
+        <!-- PIKO INTRODUCTION -->
+        <section id="introduction" class="screen">
+
+            <p class="top-label">THE ARCHIVE KEEPER</p>
+
+            <div class="piko-area">
+                <div class="piko">
+                    <div class="antenna"></div>
+
+                    <div class="robot-head">
+                        <div class="eyes">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="mouth"></div>
+                    </div>
+
+                    <div class="robot-body">
+                        <span class="heart">♥</span>
+                    </div>
+
+                    <div class="robot-feet">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Oh, hello there.</h2>
+
+            <p class="piko-name">My name is Piko.</p>
+
+            <div class="dialogue">
+                <p id="pikoDialogue">
+                    I've been entrusted with something rather unusual.
+                </p>
+            </div>
+
+            <button class="main-button" id="dialogueButton">
+                Continue →
+            </button>
+
+            <p class="bottom-note">
+                Please be nice to your little archivist.
+            </p>
+
+        </section>
+
+
+        <!-- PASSCODE SCREEN -->
+        <section id="access" class="screen">
+
+            <p class="top-label">RESTRICTED COLLECTION · 2026</p>
+
+            <div class="ornament">✧ ❀ ✧</div>
+
+            <div class="lock-icon">♙</div>
+
+            <h2>The archive is locked.</h2>
+
+            <p class="access-description">
+                A little collection awaits you.<br>
+                But first, you'll need the key.
+            </p>
+
+            <form id="accessForm">
+
+                <input
+                    type="password"
+                    id="passcode"
+                    placeholder="Enter your passcode"
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit" class="main-button">
+                    Unlock the archive →
+                </button>
+
+            </form>
+
+            <p id="accessMessage" class="access-message"></p>
+
+            <p class="bottom-note">
+                Piko has been keeping everything safe.
+            </p>
+
+        </section>
+
+
+        <!-- ARCHIVE SCREEN -->
+        <section id="archive" class="screen">
+
+            <p class="top-label">THE PERSONAL ARCHIVE</p>
+
+            <div class="archive-heading">
+                <span>COLLECTION NO. 001</span>
+                <span id="entryCounter">01 / 18</span>
+            </div>
+
+            <div class="paper">
+
+                <p class="entry-number" id="entryNumber">
+                    ENTRY 001
+                </p>
+
+                <p class="entry-date" id="entryDate">
+                    30 January 2026
+                </p>
+
+                <div class="small-divider">✧</div>
+
+                <h2 id="entryTitle">The Beginning</h2>
+
+                <div class="entry-content" id="entryContent"></div>
+
+                <div class="paper-footer">
+                    <span>FROM THE NOTES OF RAITA</span>
+                    <span>✿</span>
+                </div>
+
+            </div>
+
+            <div class="piko-guide">
+
+                <div class="mini-piko">🤖</div>
+
+                <p id="pikoNote">
+                    Let's start at the beginning, shall we?
+                </p>
+
+            </div>
+
+            <button class="main-button" id="nextEntryButton">
+                Next entry →
+            </button>
+
+            <p class="bottom-note">
+                Some pages are meant to be turned only once.
+            </p>
+
+        </section>
+
+
+        <!-- FINAL CONFESSION -->
+        <section id="ending" class="screen">
+
+            <p class="top-label">THE LAST PAGE</p>
+
+            <div class="ornament">✧ ❀ ✧</div>
+
+            <h2>And that's all.</h2>
+
+            <div class="final-letter">
+
+                <p>
+                    All of this, just to tell you that I,
+                    Raita, the weirdo, have a crush on
+                    Ishmam, the problem solver.
+                </p>
+
+                <p>
+                    I don't expect you to feel the same way.
+                    You don't have to say anything, explain
+                    anything, or do anything about it.
+                </p>
+
+                <p>
+                    These feelings are mine, and I simply
+                    wanted you to know that they existed.
+                </p>
+
+                <p>
+                    Thank you for reading all of this.
+                    I hope life is kind to you.
+                </p>
+
+                <p class="ending-signature">
+                    Okay, bye. Take care.
+                </p>
+
+            </div>
+
+            <div class="ornament ending-ornament">✧</div>
+
+            <p class="bottom-note">
+                The archive is now closed.
+            </p>
+
+        </section>
+
+
+        <!-- SILENCE SCREEN -->
+        <section id="silence" class="screen silence-screen">
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
